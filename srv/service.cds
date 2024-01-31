@@ -1,15 +1,13 @@
-service say {
-function printhello (input:String) returns String;
+using { sap.capire.bookshop as my } from '../db/Schema' ;
 
 
-action printravi (input:String) returns String
 
-}
-service say {
-    function help ( input:string ) returns string;
+ service AdminServics {
+     
+     
+     entity Books as projection on my.Books
+     
 
-    action Ravi (input:string) returns string;
-    
 
 }
 

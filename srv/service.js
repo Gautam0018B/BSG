@@ -3,12 +3,4 @@
 
  }
 
- module.exports = class say[
-
-    printravi(req) {return'hello $ {req.data.input}'}
-    
- ]
-
-
-
- ]
+ 
